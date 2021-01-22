@@ -1,0 +1,22 @@
+{
+  "name": "edie-homepage",
+  "version": "1.0.0",
+  "description": "A homepage for Edie",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveguz97/edie-homepage.git"
+  },
+  "author": "David Guzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveguz97/edie-homepage/issues"
+  },
+  "homepage": "https://github.com/daveguz97/edie-homepage#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
