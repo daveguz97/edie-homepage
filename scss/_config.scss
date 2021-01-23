@@ -51,6 +51,14 @@ ul {
     }
 }
 
+.main-wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
 .logo {
     font-family: 'Heebo', sans-serif;
 }
+
+@import 'mobile';

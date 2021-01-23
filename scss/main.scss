@@ -2,6 +2,57 @@
 @import 'variables';
 
 // Header
-#main-header {
-    
+.main-header {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2.5rem;
+        min-height: 8vh;
+
+        .nav-links {
+            display: flex;
+            justify-content: space-around;
+            width: 60%;
+            .nav-item {
+                // margin: 0 0.5rem;
+                font-size: 1.3rem;
+                font-weight: 500;
+
+                .nav-link {
+                    color: $primary-text-color;
+
+                    &:hover {
+                        transition: color 0.3s ease;
+                        color: darken($primary-text-color, 25%);
+                    }
+                }
+            }
+        }
+
+        .burger {
+            display: none;
+
+            div {
+                width: 25px;
+                height: 3px;
+                margin: 3px 0;
+                background-color: #000;
+            }
+        }
+    }
 }
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@import 'mobile';
