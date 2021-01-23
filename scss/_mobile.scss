@@ -9,6 +9,22 @@
             }
         }
     }
+
+    .showcase {
+        .form-section {
+            .form {
+                .form-group {
+                    input {
+                        width: 80%;
+                    }
+
+                    .btn {
+                        right: 20%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Tablet Size
@@ -94,6 +110,34 @@
 
             .nav-active {
                 transform: translateX(0);
+            }
+        }
+    }
+
+    .showcase {
+        .text-group-1,
+        .text-group-2,
+        .form-section {
+            width: 100%;
+            padding: 1rem;
+        }
+
+        .text-group-2 {
+            p {
+                width: 100%;
+            }
+        }
+        .form-section {
+            .form {
+                .form-group {
+                    input {
+                        width: 100%;
+                    }
+
+                    .btn {
+                        right: 0;
+                    }
+                }
             }
         }
     }
