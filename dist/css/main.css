@@ -42,11 +42,19 @@ ul li {
   position: relative; }
 
 .container {
-  max-width: 1024px;
+  width: 90%;
   margin: auto; }
+
+.btn {
+  padding: .8rem 1.3rem;
+  border: none;
+  border-radius: 6px; }
 
 .logo {
   font-family: 'Heebo', sans-serif; }
+
+img {
+  width: 100%; }
 
 @media screen and (max-width: 1024px) {
   .main-header .navbar .nav-links {
@@ -66,17 +74,18 @@ ul li {
   h6 {
     font-size: 1rem; }
   p {
-    font-size: .8rem; }
+    font-size: 0.8rem; }
   .main-wrapper {
     overflow-x: hidden; }
   .main-header .navbar .burger {
     display: block;
     position: fixed;
+    cursor: pointer;
     top: 7vh;
     right: 10px;
     z-index: 99; }
     .main-header .navbar .burger div {
-      transition: all .3s ease; }
+      transition: all 0.3s ease; }
   .main-header .navbar .toggle .line-1 {
     transform: rotate(-45deg) translate(-5px, 3px); }
   .main-header .navbar .toggle .line-2 {
@@ -137,6 +146,54 @@ ul li {
     opacity: 1;
     transform: translateX(0); } }
 
+.showcase {
+  height: 100%;
+  color: #4f4f4f;
+  padding: 1.5rem 0; }
+  .showcase .text-group-1,
+  .showcase .text-group-2,
+  .showcase .form-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 2rem; }
+    .showcase .text-group-1 p:first-child,
+    .showcase .text-group-2 p:first-child,
+    .showcase .form-section p:first-child {
+      color: #2d9cdb; }
+  .showcase .image-wrapper img {
+    border-radius: 10px; }
+  .showcase .text-group-2 {
+    margin: 1rem 0; }
+    .showcase .text-group-2 h4 {
+      margin: 1rem 0; }
+    .showcase .text-group-2 p {
+      width: 75%; }
+  .showcase .form-section .form {
+    width: 100%;
+    color: #828282; }
+    .showcase .form-section .form .form-group {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative; }
+      .showcase .form-section .form .form-group label {
+        font-size: 0.8rem;
+        margin: .5rem 0; }
+      .showcase .form-section .form .form-group input {
+        width: 70%;
+        padding: 0.8rem;
+        border-radius: 5px;
+        border: none;
+        background: #f2f2f2; }
+      .showcase .form-section .form .form-group .btn {
+        position: absolute;
+        background: #2d9cdb;
+        color: #f2f2f2;
+        bottom: 0;
+        right: 30%; }
+
 @media screen and (max-width: 1024px) {
   .main-header .navbar .nav-links {
     width: 80%; } }
@@ -155,17 +212,18 @@ ul li {
   h6 {
     font-size: 1rem; }
   p {
-    font-size: .8rem; }
+    font-size: 0.8rem; }
   .main-wrapper {
     overflow-x: hidden; }
   .main-header .navbar .burger {
     display: block;
     position: fixed;
+    cursor: pointer;
     top: 7vh;
     right: 10px;
     z-index: 99; }
     .main-header .navbar .burger div {
-      transition: all .3s ease; }
+      transition: all 0.3s ease; }
   .main-header .navbar .toggle .line-1 {
     transform: rotate(-45deg) translate(-5px, 3px); }
   .main-header .navbar .toggle .line-2 {

@@ -58,12 +58,22 @@ ul {
 }
 
 .container {
-    max-width: 1024px;
+    width: 90%;
     margin: auto;
+}
+
+.btn {
+    padding: .8rem 1.3rem;
+    border: none;
+    border-radius: 6px;
 }
 
 .logo {
     font-family: 'Heebo', sans-serif;
+}
+
+img {
+    width: 100%;
 }
 
 @import 'mobile';

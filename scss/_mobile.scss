@@ -38,9 +38,8 @@
     }
 
     p {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
-
 
     .main-wrapper {
         overflow-x: hidden;
@@ -50,12 +49,13 @@
             .burger {
                 display: block;
                 position: fixed;
+                cursor: pointer;
                 top: 7vh;
                 right: 10px;
                 z-index: 99;
-                
+
                 div {
-                    transition: all .3s ease;
+                    transition: all 0.3s ease;
                 }
             }
 
