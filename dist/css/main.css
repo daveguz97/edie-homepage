@@ -42,7 +42,8 @@ ul li {
   position: relative; }
 
 .container {
-  max-width: 1024px; }
+  max-width: 1024px;
+  margin: auto; }
 
 .logo {
   font-family: 'Heebo', sans-serif; }
