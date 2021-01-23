@@ -4,6 +4,9 @@
 // Header
 .main-header {
     .navbar {
+        h5 {
+            margin-left: 1rem;
+        }
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -59,7 +62,6 @@
 // Showcase
 .showcase {
     color: $gray-1;
-    padding: 1.5rem 0;
 
     .text-group-1,
     .text-group-2,
@@ -95,18 +97,18 @@
         .form {
             width: 100%;
             color: $gray-2;
-    
+
             .form-group {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 position: relative;
-    
+
                 label {
                     font-size: 0.8rem;
-                    margin: .5rem 0;
+                    margin: 0.5rem 0;
                 }
-    
+
                 input {
                     width: 70%;
                     padding: 0.8rem;
@@ -114,7 +116,7 @@
                     border: none;
                     background: $gray-3;
                 }
-    
+
                 .btn {
                     position: absolute;
                     background: $light-blue-color;
@@ -124,7 +126,71 @@
                 }
             }
         }
+    }
+}
 
+.our-services {
+    margin: 2rem 0;
+    h5 {
+        margin-bottom: 1rem;
+    }
+    .text-content {
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+
+        .text-group {
+            cursor: pointer;
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 1rem;
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            transition: all .3s ease;
+
+            &:hover {
+                background: #fff;
+                -webkit-box-shadow: 5px 10px 30px 0px rgba(51, 51, 51, 0.1);
+                box-shadow: 5px 10px 30px 0px rgba(51, 51, 51, 0.1);
+
+                .btn {
+                    transition: all .3s ease;
+                    background: $light-blue-color;
+                    color: $gray-3;
+                    &:hover {
+                        background: lighten($color: $light-blue-color, $amount: 5%);
+                    }
+                }
+            }
+
+            .material-icons {
+                height: 48px;
+                width: 48px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                background: $light-blue-color;
+                margin-bottom: 1rem;
+                color: $gray-3;
+                border-radius: 10px;
+            }
+            .code {
+                background: #27ae60;
+            }
+
+            .storage {
+                background: #eb5757;
+            }
+            h6 {
+                margin: 1rem 0;
+            }
+            .btn {
+                margin-top: 1rem;
+            }
+        }
     }
 }
 

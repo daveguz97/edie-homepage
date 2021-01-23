@@ -87,7 +87,7 @@ img {
     position: fixed;
     cursor: pointer;
     top: 7vh;
-    right: 10px;
+    right: 20px;
     z-index: 99; }
     .main-header .navbar .burger div {
       transition: all 0.3s ease; }
@@ -136,6 +136,8 @@ img {
   align-items: center;
   margin: 2rem 0;
   min-height: 8vh; }
+  .main-header .navbar h5 {
+    margin-left: 1rem; }
   .main-header .navbar .nav-links {
     display: flex;
     justify-content: space-around;
@@ -166,8 +168,7 @@ img {
     transform: translateX(0); } }
 
 .showcase {
-  color: #4f4f4f;
-  padding: 1.5rem 0; }
+  color: #4f4f4f; }
   .showcase .text-group-1,
   .showcase .text-group-2,
   .showcase .form-section {
@@ -198,7 +199,7 @@ img {
       position: relative; }
       .showcase .form-section .form .form-group label {
         font-size: 0.8rem;
-        margin: .5rem 0; }
+        margin: 0.5rem 0; }
       .showcase .form-section .form .form-group input {
         width: 70%;
         padding: 0.8rem;
@@ -211,6 +212,54 @@ img {
         color: #f2f2f2;
         bottom: 0;
         right: 30%; }
+
+.our-services {
+  margin: 2rem 0; }
+  .our-services h5 {
+    margin-bottom: 1rem; }
+  .our-services .text-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%; }
+    .our-services .text-content .text-group {
+      cursor: pointer;
+      padding: 1rem;
+      border-radius: 10px;
+      margin: 1rem;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      transition: all .3s ease; }
+      .our-services .text-content .text-group:hover {
+        background: #fff;
+        -webkit-box-shadow: 5px 10px 30px 0px rgba(51, 51, 51, 0.1);
+        box-shadow: 5px 10px 30px 0px rgba(51, 51, 51, 0.1); }
+        .our-services .text-content .text-group:hover .btn {
+          transition: all .3s ease;
+          background: #2d9cdb;
+          color: #f2f2f2; }
+          .our-services .text-content .text-group:hover .btn:hover {
+            background: #43a6df; }
+      .our-services .text-content .text-group .material-icons {
+        height: 48px;
+        width: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background: #2d9cdb;
+        margin-bottom: 1rem;
+        color: #f2f2f2;
+        border-radius: 10px; }
+      .our-services .text-content .text-group .code {
+        background: #27ae60; }
+      .our-services .text-content .text-group .storage {
+        background: #eb5757; }
+      .our-services .text-content .text-group h6 {
+        margin: 1rem 0; }
+      .our-services .text-content .text-group .btn {
+        margin-top: 1rem; }
 
 @media screen and (max-width: 1024px) {
   .main-header .navbar .nav-links {
@@ -242,7 +291,7 @@ img {
     position: fixed;
     cursor: pointer;
     top: 7vh;
-    right: 10px;
+    right: 20px;
     z-index: 99; }
     .main-header .navbar .burger div {
       transition: all 0.3s ease; }
