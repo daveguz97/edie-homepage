@@ -155,4 +155,44 @@
             }
         }
     }
+
+    .our-work {
+        padding: 2rem 0;
+
+        h5 {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .main-wrapper {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            .wrapper {
+                align-items: center;
+                margin: 0;
+
+                &:nth-child(even) {
+                    margin-top: 0;
+                }
+
+
+                small {
+                    margin-top: 5px;
+                }
+
+                small, h6 {
+                    align-self: flex-start;
+                }
+            }
+        }
+        .link-wrapper {
+            a {
+                margin-top: 1rem;
+                justify-content: flex-start;
+            }
+        }
+    }
 }
