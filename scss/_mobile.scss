@@ -142,4 +142,15 @@
             }
         }
     }
+
+    .our-services {
+        .text-content {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .text-group {
+                width: 100%
+            }
+        }
+    }
 }

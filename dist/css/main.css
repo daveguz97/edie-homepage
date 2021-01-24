@@ -128,7 +128,13 @@ img {
     .showcase .form-section .form .form-group input {
       width: 100%; }
     .showcase .form-section .form .form-group .btn {
-      right: 0; } }
+      right: 0; }
+  .our-services .text-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .our-services .text-content .text-group {
+      width: 100%; } }
 
 .main-header .navbar {
   display: flex;
@@ -332,4 +338,10 @@ img {
     .showcase .form-section .form .form-group input {
       width: 100%; }
     .showcase .form-section .form .form-group .btn {
-      right: 0; } }
+      right: 0; }
+  .our-services .text-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .our-services .text-content .text-group {
+      width: 100%; } }
