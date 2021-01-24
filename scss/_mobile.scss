@@ -2,6 +2,9 @@
 
 // Small laptop size
 @media screen and (max-width: 1024px) {
+
+
+
     .main-header {
         .navbar {
             .nav-links {
@@ -10,6 +13,7 @@
         }
     }
 
+    
     .showcase {
         .form-section {
             .form {
@@ -17,7 +21,7 @@
                     input {
                         width: 80%;
                     }
-
+                    
                     .btn {
                         right: 20%;
                     }
@@ -25,10 +29,23 @@
             }
         }
     }
+    .main-footer {
+        position: relative;
+        
+        .copyright-info {
+            position: absolute;
+            bottom: 10px;
+        }
+    }
+    
 }
 
 // Tablet Size
 @media screen and (max-width: 768px) {
+    .main-wrapper {
+        overflow-x: hidden;
+        position: relative;
+    }
     h1 {
         font-size: 3.5rem;
     }
@@ -55,10 +72,6 @@
 
     p {
         font-size: 0.8rem;
-    }
-
-    .main-wrapper {
-        overflow-x: hidden;
     }
     .main-header {
         .navbar {
@@ -214,9 +227,34 @@
 
     .our-clients {
         padding: 2rem 0;
-        
+
         .text-content {
             width: 100%;
+        }
+    }
+
+    .main-footer {
+        min-height: 50vh;
+        position: relative;
+        .main-wrapper {
+            flex-direction: column;
+            align-items: flex-start;
+            .social {
+                margin: 1rem 0;
+                text-align: left;
+                justify-content: flex-start;
+
+                .social-links {
+                    justify-content: flex-start;
+                }
+            }
+            .form-section {
+                margin-bottom: 1rem;
+            }
+        }
+        .copyright-info {
+            position: absolute;
+            bottom: 10px;
         }
     }
 }
