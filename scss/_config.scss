@@ -63,7 +63,7 @@ ul {
 }
 
 .btn {
-    padding: .8rem 1.3rem;
+    padding: 0.8rem 1.3rem;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -77,6 +77,43 @@ ul {
 img {
     width: 100%;
     border-radius: 10px;
+}
+
+.form-section {
+    .form {
+        width: 100%;
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+
+            label {
+                font-size: 0.8rem;
+                margin: 0.5rem 0;
+            }
+
+            input {
+                padding: 0.8rem;
+                padding-right: 1.5rem;
+                border-radius: 5px;
+                border: none;
+                background: $gray-3;
+            }
+
+            .btn {
+                position: absolute;
+                background: $light-blue-color;
+                color: $gray-3;
+                bottom: 0;
+
+                &:hover {
+                    transition: all 0.3s ease;
+                    background: lighten($color: $light-blue-color, $amount: 5%);
+                }
+            }
+        }
+    }
 }
 
 @import 'mobile';
