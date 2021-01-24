@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     width: 100%;
@@ -52,10 +56,9 @@ ul {
 }
 
 .main-wrapper {
-    height: 100%;
     width: 100%;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .container {

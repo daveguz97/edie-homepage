@@ -280,6 +280,19 @@
     }
 }
 
+.arrow-up {
+    padding: 1rem;
+    cursor: pointer;
+    background-color: $primary-text-color;
+    border-radius: 50%;
+    color: #fff;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    z-index: 99;
+    display: none;
+}
+
 .main-footer {
     background: #100e1d;
     color: #fff;
