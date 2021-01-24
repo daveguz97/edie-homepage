@@ -195,4 +195,20 @@
             }
         }
     }
+
+    .our-team {
+        padding: 2rem 0;
+
+        .main-wrapper {
+            flex-direction: column;
+
+            .text-content {
+                width: 80%;
+                margin-bottom: 1rem;
+                h5 {
+                    margin: 1rem 0;
+                }
+            }
+        }
+    }
 }

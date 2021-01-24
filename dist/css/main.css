@@ -162,7 +162,16 @@ img {
           align-self: flex-start; }
     .our-work .link-wrapper a {
       margin-top: 1rem;
-      justify-content: flex-start; } }
+      justify-content: flex-start; }
+  .our-team {
+    padding: 2rem 0; }
+    .our-team .main-wrapper {
+      flex-direction: column; }
+      .our-team .main-wrapper .text-content {
+        width: 80%;
+        margin-bottom: 1rem; }
+        .our-team .main-wrapper .text-content h5 {
+          margin: 1rem 0; } }
 
 .main-header .navbar {
   display: flex;
@@ -333,7 +342,7 @@ img {
 
 .our-team {
   height: 100%;
-  padding: 2rem 0; }
+  padding: 4rem 0; }
   .our-team .main-wrapper {
     height: 100%;
     display: flex;
@@ -462,4 +471,13 @@ img {
           align-self: flex-start; }
     .our-work .link-wrapper a {
       margin-top: 1rem;
-      justify-content: flex-start; } }
+      justify-content: flex-start; }
+  .our-team {
+    padding: 2rem 0; }
+    .our-team .main-wrapper {
+      flex-direction: column; }
+      .our-team .main-wrapper .text-content {
+        width: 80%;
+        margin-bottom: 1rem; }
+        .our-team .main-wrapper .text-content h5 {
+          margin: 1rem 0; } }
