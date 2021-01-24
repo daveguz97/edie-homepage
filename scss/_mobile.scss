@@ -151,7 +151,7 @@
             justify-content: center;
             align-items: center;
             .text-group {
-                width: 100%
+                width: 100%;
             }
         }
     }
@@ -178,12 +178,12 @@
                     margin-top: 0;
                 }
 
-
                 small {
                     margin-top: 5px;
                 }
 
-                small, h6 {
+                small,
+                h6 {
                     align-self: flex-start;
                 }
             }
@@ -209,6 +209,14 @@
                     margin: 1rem 0;
                 }
             }
+        }
+    }
+
+    .our-clients {
+        padding: 2rem 0;
+        
+        .text-content {
+            width: 100%;
         }
     }
 }

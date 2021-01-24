@@ -159,7 +159,8 @@ img {
           margin-top: 0; }
         .our-work .main-wrapper .wrapper small {
           margin-top: 5px; }
-        .our-work .main-wrapper .wrapper small, .our-work .main-wrapper .wrapper h6 {
+        .our-work .main-wrapper .wrapper small,
+        .our-work .main-wrapper .wrapper h6 {
           align-self: flex-start; }
     .our-work .link-wrapper a {
       margin-top: 1rem;
@@ -172,7 +173,11 @@ img {
         width: 80%;
         margin-bottom: 1rem; }
         .our-team .main-wrapper .text-content h5 {
-          margin: 1rem 0; } }
+          margin: 1rem 0; }
+  .our-clients {
+    padding: 2rem 0; }
+    .our-clients .text-content {
+      width: 100%; } }
 
 .main-header .navbar {
   display: flex;
@@ -477,7 +482,8 @@ img {
           margin-top: 0; }
         .our-work .main-wrapper .wrapper small {
           margin-top: 5px; }
-        .our-work .main-wrapper .wrapper small, .our-work .main-wrapper .wrapper h6 {
+        .our-work .main-wrapper .wrapper small,
+        .our-work .main-wrapper .wrapper h6 {
           align-self: flex-start; }
     .our-work .link-wrapper a {
       margin-top: 1rem;
@@ -490,4 +496,8 @@ img {
         width: 80%;
         margin-bottom: 1rem; }
         .our-team .main-wrapper .text-content h5 {
-          margin: 1rem 0; } }
+          margin: 1rem 0; }
+  .our-clients {
+    padding: 2rem 0; }
+    .our-clients .text-content {
+      width: 100%; } }
