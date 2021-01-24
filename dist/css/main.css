@@ -117,25 +117,29 @@ img {
         font-size: 1rem; }
   .main-header .navbar .nav-active {
     transform: translateX(0); }
-  .showcase .text-group-1,
-  .showcase .text-group-2,
-  .showcase .form-section {
-    width: 100%;
-    padding: 1rem; }
-  .showcase .text-group-2 p {
-    width: 100%; }
-  .showcase .form-section {
-    margin-bottom: 4rem; }
-    .showcase .form-section .form .form-group input {
+  .showcase {
+    padding: 2rem 0; }
+    .showcase .text-group-1,
+    .showcase .text-group-2,
+    .showcase .form-section {
+      width: 100%;
+      padding: 1rem; }
+    .showcase .text-group-2 p {
       width: 100%; }
-    .showcase .form-section .form .form-group .btn {
-      right: 0; }
-  .our-services .text-content {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .our-services .text-content .text-group {
-      width: 100%; } }
+    .showcase .form-section {
+      margin-bottom: 4rem; }
+      .showcase .form-section .form .form-group input {
+        width: 100%; }
+      .showcase .form-section .form .form-group .btn {
+        right: 0; }
+  .our-services {
+    padding: 2rem 0; }
+    .our-services .text-content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .our-services .text-content .text-group {
+        width: 100%; } }
 
 .main-header .navbar {
   display: flex;
@@ -175,7 +179,8 @@ img {
     transform: translateX(0); } }
 
 .showcase {
-  color: #4f4f4f; }
+  color: #4f4f4f;
+  padding: 4rem 0; }
   .showcase .text-group-1,
   .showcase .text-group-2,
   .showcase .form-section {
@@ -220,11 +225,11 @@ img {
         bottom: 0;
         right: 30%; }
         .showcase .form-section .form .form-group .btn:hover {
-          transition: all .3s ease;
+          transition: all 0.3s ease;
           background: #43a6df; }
 
 .our-services {
-  margin: 2rem 0; }
+  padding: 4rem 0; }
   .our-services h5 {
     margin-bottom: 1rem; }
   .our-services .text-content {
@@ -241,13 +246,13 @@ img {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      transition: all .3s ease; }
+      transition: all 0.3s ease; }
       .our-services .text-content .text-group:hover {
         background: #fff;
         -webkit-box-shadow: 5px 10px 30px 0px rgba(51, 51, 51, 0.1);
         box-shadow: 5px 10px 30px 0px rgba(51, 51, 51, 0.1); }
         .our-services .text-content .text-group:hover .btn {
-          transition: all .3s ease;
+          transition: all 0.3s ease;
           background: #2d9cdb;
           color: #f2f2f2; }
           .our-services .text-content .text-group:hover .btn:hover {
@@ -271,6 +276,35 @@ img {
         margin: 1rem 0; }
       .our-services .text-content .text-group .btn {
         margin-top: 1rem; }
+
+.our-work {
+  padding: 4rem 0; }
+  .our-work h5 {
+    width: 40%;
+    padding-bottom: 2.5rem; }
+  .our-work .main-wrapper {
+    display: grid;
+    width: 100%;
+    margin: 2rem 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; }
+    .our-work .main-wrapper .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
+      .our-work .main-wrapper .wrapper:nth-child(even) {
+        margin-top: -4rem; }
+      .our-work .main-wrapper .wrapper img {
+        width: 80%;
+        border-radius: 10px;
+        margin-bottom: 1rem; }
+      .our-work .main-wrapper .wrapper small {
+        color: #828282; }
+  .our-work .link-wrapper a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #2d9cdb; }
 
 @media screen and (max-width: 1024px) {
   .main-header .navbar .nav-links {
@@ -331,22 +365,26 @@ img {
         font-size: 1rem; }
   .main-header .navbar .nav-active {
     transform: translateX(0); }
-  .showcase .text-group-1,
-  .showcase .text-group-2,
-  .showcase .form-section {
-    width: 100%;
-    padding: 1rem; }
-  .showcase .text-group-2 p {
-    width: 100%; }
-  .showcase .form-section {
-    margin-bottom: 4rem; }
-    .showcase .form-section .form .form-group input {
+  .showcase {
+    padding: 2rem 0; }
+    .showcase .text-group-1,
+    .showcase .text-group-2,
+    .showcase .form-section {
+      width: 100%;
+      padding: 1rem; }
+    .showcase .text-group-2 p {
       width: 100%; }
-    .showcase .form-section .form .form-group .btn {
-      right: 0; }
-  .our-services .text-content {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .our-services .text-content .text-group {
-      width: 100%; } }
+    .showcase .form-section {
+      margin-bottom: 4rem; }
+      .showcase .form-section .form .form-group input {
+        width: 100%; }
+      .showcase .form-section .form .form-group .btn {
+        right: 0; }
+  .our-services {
+    padding: 2rem 0; }
+    .our-services .text-content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .our-services .text-content .text-group {
+        width: 100%; } }
