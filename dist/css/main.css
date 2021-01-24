@@ -331,6 +331,33 @@ img {
     justify-content: flex-end;
     color: #2d9cdb; }
 
+.our-team {
+  height: 100%;
+  padding: 2rem 0; }
+  .our-team .main-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .our-team .main-wrapper .text-content {
+      width: 25%; }
+      .our-team .main-wrapper .text-content p:first-child {
+        color: #eb5757; }
+    .our-team .main-wrapper .image-wrapper {
+      display: grid;
+      grid-template-areas: 'person3 person1' 'person3 person2';
+      gap: 1rem; }
+      .our-team .main-wrapper .image-wrapper img {
+        width: 100%;
+        border-radius: 10px; }
+      .our-team .main-wrapper .image-wrapper .person1 {
+        grid-area: person1; }
+      .our-team .main-wrapper .image-wrapper .person2 {
+        grid-area: person2; }
+      .our-team .main-wrapper .image-wrapper .person3 {
+        align-self: center;
+        grid-area: person3; }
+
 @media screen and (max-width: 1024px) {
   .main-header .navbar .nav-links {
     width: 80%; }
