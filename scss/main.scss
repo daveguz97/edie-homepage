@@ -78,12 +78,6 @@
         }
     }
 
-    .image-wrapper {
-        img {
-            border-radius: 10px;
-        }
-    }
-
     .text-group-2 {
         margin: 1rem 0;
         width: 40%;
@@ -232,11 +226,6 @@
             &:nth-child(even) {
                 margin-top: -4rem;
             }
-
-            img {
-                width: 100%;
-                border-radius: 10px;
-            }
             small {
                 color: $gray-2;
             }
@@ -263,7 +252,7 @@
 
         .text-content {
             width: 25%;
-            
+
             p {
                 &:first-child {
                     color: $red-color;
@@ -278,11 +267,6 @@
                 'person3 person2';
             gap: 1rem;
 
-            img {
-                width: 100%;
-                border-radius: 10px;
-            }
-
             .person1 {
                 grid-area: person1;
             }
@@ -292,7 +276,32 @@
             .person3 {
                 align-self: center;
                 grid-area: person3;
+            }
+        }
+    }
+}
+
+.our-clients {
+    padding: 4rem 0;
+
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80%;
+
+        .profile {
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+
+            p {
+                color: $gray-2;
+            }
             
+            .person4 {
+                margin-right: 1rem;
+                max-width: 78px;
             }
         }
     }
